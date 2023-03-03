@@ -1,0 +1,46 @@
+.images{
+  display:none;
+}
+#first{
+  display:block;
+}
+.containers{
+  height:100vh;
+  width:60vw;
+  margin:auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position:relative;
+}
+.holder{
+  position:relative;
+}
+.images , .holder{
+  width:60vw;
+  height:60vh;
+}
+#left{
+position: absolute;
+left:0;
+color:white;
+font-weight:bolder;
+font-size: 3rem;
+background-color: black;
+padding:10px;
+
+}
+#right{
+  position: absolute;
+  right:0;
+  color:white;
+  font-weight:bolder;
+  font-size: 3rem;
+  background-color: black;
+  padding:10px;
+  
+  }
+  body{
+    background: linear-gradient(red,blue);
+  }
