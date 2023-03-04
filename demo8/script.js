@@ -11,7 +11,7 @@ function equal(){
   userInput.value = eval(expression); 
  expression="";  
 }
-function clear(){
+function deleted(){
   expression = "";
   userInput.value = expression;
 }
